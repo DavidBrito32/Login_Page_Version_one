@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/imagem/pexels-photo.webp);
+    background-size: cover; /*SERVE PARA PREENCHER O BACKGROUND TODO COM A IMAGEM*/
+    background-repeat: no-repeat;
+    width: 100% auto;
+}
+
+/*CONFIGURANDO O CABEÇALHO DO SITE*/
+
+.imagemLogo {
+    width: 10%;
+    position: relative;
+}
+
+.cabeca {
+    background-color: black;
+    display: flex;
+    margin: 5px auto;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px auto;
+    height: 90px;
+    opacity: 90%;
+}
+
+/*CONFIGURANDO A NAVBAR E SEUS ELEMENTOS*/
+
+.navbar{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 14px;
+}
+.navbar a:hover {
+    background-color: rgb(52, 40, 129);
+    color: yellow;
+    transition: 0.5s ease-in;
+}
+.navbar a:active{
+    color: red;
+}
+
+/*CONFIGURANDO o elemento principal do site que é o form*/
+
+.principal{
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    border-radius: 55px;
+    background-color: rgba(99, 59, 128, 0.601);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 19px 50px;
+
+}
+
+.Formulario {
+    color: wheat;
+    width: 450px;
+    height: 500px;
+    text-align: left;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 1.1rem;
+    opacity: 800%;
+
+
+}
+
+.Formulario a {
+    background-color: lemonchiffon;
+    margin: 10px;
+    border-radius: 26px;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.Formulario a:hover {
+    background-color: black;
+    color: yellow;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.Formulario a:active {
+    color: rgb(166, 166, 221);
+}
+
+.img2 {
+    width: 50%;
+    display: block;
+    opacity: 1;
+    margin: 0 auto;
+    border-radius: 22px;
+}
+
+.Formulario input[type="text"],
+.Formulario input[type="email"], .Formulario input[type="password"]  {
+    width: 95%; /* definindo largura de 95% */
+    margin: 3px; /* removendo margens */
+    border-radius: 14px;
+    padding: 9px;  
+    font-size: 16px;
+}
+
+
+.botao_bonito {
+    width: 70px;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 12px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.botao_bonito:hover {
+    background-color: purple;
+    transition: 1.0s ease-out;
+    cursor: pointer;
+}
